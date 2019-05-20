@@ -1,9 +1,10 @@
 name: algoprojs
 channels:
+  - conda-forge
   - defaults
 dependencies:
   - alabaster=0.7.12=py37_0
-  - anaconda=2019.03=py37_0
+  - anaconda=custom=py37_0
   - anaconda-client=1.7.2=py37_0
   - anaconda-project=0.8.2=py37_0
   - asn1crypto=0.24.0=py37_0
@@ -51,12 +52,16 @@ dependencies:
   - entrypoints=0.3=py37_0
   - et_xmlfile=1.0.1=py37_0
   - fastcache=1.0.2=py37hfa6e2cd_2
+  - featuretools=0.7.1=py_0
   - filelock=3.0.10=py37_0
   - flask=1.0.2=py37_1
   - freetype=2.9.1=ha9979f8_1
+  - funcsigs=1.0.2=py_3
+  - future=0.17.1=py37_1000
   - get_terminal_size=1.0.0=h38e98db_0
   - gevent=1.4.0=py37he774522_0
   - glob2=0.6=py37_1
+  - graphviz=2.38=hfd603c8_2
   - greenlet=0.4.15=py37hfa6e2cd_0
   - h5py=2.9.0=py37h5e291fa_0
   - hdf5=1.10.4=h7ebc959_0
@@ -184,6 +189,7 @@ dependencies:
   - pytest-remotedata=0.3.1=py37_0
   - python=3.7.3=h8c8aaf0_0
   - python-dateutil=2.8.0=py37_0
+  - python-graphviz=0.10.1=py_0
   - python-libarchive-c=2.8=py37_6
   - pytz=2018.9=py37_0
   - pywavelets=1.0.2=py37h8c2d366_0
